@@ -1,0 +1,352 @@
+
+
+
+.More{
+    color: blue;
+    } 
+
+
+h1{
+color:blue;
+font-style: italic;
+font-weight:bold;
+font-size: 30px;
+
+
+
+    
+
+}
+
+
+.Future{
+    color:blue ;
+   font-weight: bold;
+    font-size: 24px;
+    
+    
+  }
+
+
+.img-fluid{
+    display: block;
+   width: 980px;
+   height: auto;
+   object-fit: cover;
+   object-position: 100% 100%;
+   
+   
+       
+       
+       
+   }
+
+
+
+.fs-1{
+    font-weight: bolder;
+    color: blue;
+    margin-bottom: 5%;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+  
+p1{
+    color: #f0f0f7;
+    background-color: rgb(3, 3, 3);
+    font-size: 19px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+
+    
+    
+}
+
+
+
+
+.IT{
+    color: blue;
+}
+
+
+   
+
+p{
+    color: blue;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+   
+}  
+
+
+
+
+nav-item1{
+    color: blue;
+}
+
+
+.nav-item{
+    color: blue;
+    font-size: 18px;
+    font-weight: bolder;
+    
+}
+
+
+
+.body {
+    background-image: url(images/unnamed\ 1.jpg);
+    background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+              margin-bottom: 5%;
+              margin-top: 5%;
+  }
+  
+
+
+
+.body{
+  background-image: url(images/images\ 4.jpg);
+        background-repeat: no-repeat;
+                  background-attachment: fixed;
+                  background-size: 100% 100%;
+      
+}
+
+    
+    #body {
+        background-image: url(images/Tshwarana.jpg);
+        background-attachment: fixed;
+        background-position: 100%;
+        background-repeat: repeat;
+
+
+}
+
+
+      
+li1{
+    font-size: 19px;
+    font-weight: bolder;
+    margin-top: 3%;
+
+}
+        
+
+
+
+
+
+
+@media (min-width:310px) and (max-width:330px) {
+
+    .img-fluid{
+        display: block;
+       max-width: 249px;
+       max-height: auto;
+       object-fit: cover;
+       object-position: 100% 100%;
+    
+    }
+
+
+       
+    
+    #body {
+        background-image: url(images/Tshwarana.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        object-fit: contain;
+        background-position: 50% 50%;
+
+    
+    }
+
+    .Future{
+
+       
+        font-size: 19px;
+        
+      }
+    
+
+
+    p{
+        font-size: 14px;
+        max-height: auto;
+        width: 100%;
+    }
+    p1{
+        font-size: 14px;
+       }
+       
+       h1{
+        font-size: 26px;
+    
+       }
+    
+       li1{
+        font-size: 14px;
+       }
+
+       .nav-item{
+    
+        font-size: 16px;
+    
+        
+    }
+ 
+}
+
+
+
+@media (min-width:360px) and (max-width:400px) {
+
+
+    .img-fluid{
+        display: block;
+       width: 380px;
+       height: 210px;
+       object-fit: fill;
+       object-position: 100% 100%;
+    
+    
+    }
+
+    #body {
+        background-image: url(images/Tshwarana.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        object-fit: contain;
+        background-position: 45% 45%;
+
+}
+
+
+.Future{
+    
+
+    font-size: 18px;
+
+  }
+
+
+
+p{
+    font-size: 16px;
+    
+}
+p1{
+    font-size: 16px;
+   }
+   
+   h1{
+    font-size: 25px;
+
+   }
+
+   li1{
+    font-size: 17px;
+   }
+
+   .nav-item{
+    
+    font-size: 17px;
+
+    
+}
+}
+
+
+
+@media (min-width:405px) and (max-width:435px) {
+
+    .img-fluid{
+        display: block;
+       width: 100%;
+       height: auto;
+       object-fit: cover;
+       object-position: 100% 100%;
+    
+    }
+
+    #body {
+        background-image: url(images/Tshwarana.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: 40% 40%;
+    
+    }
+
+    .Future{
+       
+        font-size: 20px;
+        
+      }
+    
+    
+    
+    p{
+        font-size: 16px;
+        
+    
+    }
+    p1{
+        font-size: 16px;
+       }
+       
+       h1{
+        font-size: 26px;
+    
+       }
+    
+       li1{
+        font-size: 16px;
+       }
+    
+
+
+       .nav-item{
+    
+        font-size: 17px;
+        
+        
+    }
+}
+
+
+
+@media (min-width:750px) and (max-width:770px) {
+
+    #body {
+        background-image: url(images/Tshwarana.jpg);
+        background-attachment: fixed;
+        background-repeat: repeat-x;
+        background-position: 50% 50%;
+    
+    }
+
+}
+
+
+@media (min-width:1120) and (max-width:1130px) {
+
+    .img-fluid {
+        display: block;
+       width: 980px;
+       height: 670px;
+       object-fit: cover;
+       object-position: 100% 100%;
+     }
+
+}
